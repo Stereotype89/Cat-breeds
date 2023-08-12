@@ -15,3 +15,4 @@ export const fetchBreeds = () => {
 export const fetchCatByBreed = breedId => {
   return axios(`${END_POINTS.info}?breed_ids=${breedId}`);
 };
+//
